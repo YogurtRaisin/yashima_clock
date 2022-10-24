@@ -44,7 +44,7 @@ const Clock = {
       nowHour = nowTime.getHours();
       nowMin = nowTime.getMinutes();
       nowSec = nowTime.getSeconds();
-    }, 1000);
+    }, 1);
   },
 
   animateFigure: function($el, value) {
